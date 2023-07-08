@@ -159,6 +159,7 @@ main section {
 .skills-container {
     display: flex;
     gap: 24px;
+    margin-left: 100px;
 }
 
 .skills {
@@ -166,11 +167,9 @@ main section {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 25%;
 }
 
-#box1 {
-    margin-left: 100px;
-}
 
 .skill-pera {
     color: #757575;
@@ -208,10 +207,42 @@ main section {
     margin-bottom: 0px;
 
 }
-hr{
+
+hr {
     margin: 30px 0px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
-    margin-top: 50px ;
+    margin-top: 50px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.contact input[type="text"], .contact input[type=email] ,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 38px;
+    color: #FFF;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+}
+.social-links a {
+    margin-right: 50px;
+    margin-top: 30px;
 }
